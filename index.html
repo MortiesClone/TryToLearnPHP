@@ -1,2 +1,23 @@
-asfsdgfdhm m dng kdkghd 
-gf dgo ljldh fg
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="ProcessingComment.js"></script>
+	<title>Title</title>
+</head>
+<body>
+<form action="processing.php" method="POST" name="form1">
+	<center>
+		<p><label>Введите Ваше имя(макс. 30 симв.):<input type="text" name="name" id="name" size="30" maxlength="30"></label></p>
+		<p><label for="comment">Комментарии</label></p>
+		<textarea name="text" id="comment"></textarea>
+		<p><input type="reset" name="reset" value="Сброс"><input type="button" name="submit" value="Отправить" onclick="addComment();"></p>
+		<p>Комментарии</p>
+		<div id="123">
+		
+		</div>
+	</center>
+</form>
+</body>
+</html>
