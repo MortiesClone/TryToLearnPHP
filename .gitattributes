@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
